@@ -26,5 +26,5 @@ php artisan migrate --seed
 
 The folder `tests/Unit` contains several tests for the exercise. Once you have written your code, and executed the migrations and seeders, run PHPUnit with:
 ```shell
-php phpunit.phar
+vendor/bin/phpunit
 ```
