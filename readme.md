@@ -8,6 +8,11 @@ composer install
 ./init.sh
 ```
 
+If you have dependency errors when initializing the project, execute this command
+```shell
+composer update
+```
+
 ## Writing your code
 
 Your models must be in the `App` namespace. The unit tests in this project will try to load them in the following way:
