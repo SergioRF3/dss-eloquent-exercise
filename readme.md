@@ -6,6 +6,7 @@ After downloading the project execute
 ```shell
 composer install
 cp .env.example .env
+php artisan key:generate
 php artisan migrate:install
 ```
 
