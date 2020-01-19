@@ -5,7 +5,8 @@
 After downloading the project execute
 ```shell
 composer install
-./init.sh
+cp .env.example .env
+php artisan migrate:install
 ```
 
 If you have dependency errors when initializing the project, execute this command
